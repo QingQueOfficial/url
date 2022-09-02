@@ -2,9 +2,12 @@
 <html lang="zh-CN">
 <head> 
 <meta charset="utf-8">
-<title>这个是网页的标题</title> 
+<title>other site</title> 
 </head> 
-<frameset framespacing="0" border="0" rows="0" frameborder="0"> 
-<frame name="main" src="www.baidu.com" scrolling="auto" noresize> 
-</frameset> 
+<frameset rows="100%">
+  <frame src="http://www.example.com/">
+  <noframes>
+    <body>Please follow <a href="http://www.example.com/">link</a>.</body>
+  </noframes>
+</frameset>
 </html>
